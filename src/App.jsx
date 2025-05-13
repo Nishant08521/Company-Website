@@ -11,12 +11,14 @@ const App = () => {
   return (
     <div className="bg-[#f6f9fb] text-[#2d285d] min-h-screen flex flex-col">
       <Header />
+
       <Routes>
         <Route path="/" element={<Mains />} />
         <Route path="/us" element={<Us />} />
         <Route path="/contactus" element={<Aus />} />
         <Route path="/careers" element={<Careers />} />
       </Routes>
+
       <Foooter />
     </div>
   );
